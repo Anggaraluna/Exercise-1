@@ -5,26 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Biodata Pribadi</title>
+    <style>
+            body {
+              background-color: rgb(173, 247, 166);
+            }
+            
+            h1 {
+              color: blue;
+              text-align: center;
+              border: 2px solid black;
+              outline: rgb(248, 13, 4) solid 10px;
+              margin: auto;
+              padding: 10px;
+            }
+
+            h1 {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            
+            p {
+              font-family: sans-serif;
+              font-size: 20px;
+              text-align: center;
+            }
+
+            div.double {border-style: double;}
+            div.solid {border-style: solid;}
+
+            div {
+                background-color: lightgray
+            }
+
+            div {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            </style>
 </head>
-<body> {
-        background-color: green;    
-        <div>
-                <h1 style="color:chartreuse ">Curriculum Vitae</h1>
-                <form action="">
-                    <p>Nama Lengkap: Dwiari Anggara</p>
-                    <br>
-                    <label for="date">Tanggal Lahir:</label>
-                    <input type="date" id="date">
-                    <br>
-                    <label for="address">Alamat:</label>
-                    <input type="text" id="address">
-                    <br>
-                    <label for="email">Alamat Email:</label>
-                    <input type="text" id="email">
-                </form>
-    
+<body>   
+        <h1>Welcome to My Curriculum Vitae</h1>
+        <div class="double">
+                <p>Name: Dwiari Anggara</p>
+                <p>Place and Date of Birth: Badung, 5 February 1986</p>
+                <p>Gender: Male</p>
+                <p>Nationality: Indonesian</p>
+                <p>Email: dwiopiangga@gmail.com</p>
+                <p>Hobby: Listening Japanese Song</p>
         </div>
-}
-    
+        <div class="solid">
+            <h2>Want to know more about me.</h2>
+            <label for="email">Email Address</label>
+            <input type="text" id="email">
+            <br>
+            <label for="questions">Questions</label>
+            <input type="text" id="questions">
+        </div>
+
 </body>
 </html>
